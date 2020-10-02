@@ -84,7 +84,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1300"
+    ComputedModelVersion    "1.1301"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -126,7 +126,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [8.0, 8.0, 1460.0, 920.0]
+      Location		      [187.0, 61.0, 1297.0, 737.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -146,20 +146,64 @@ Model {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		9
+	Dimension		13
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1406.0, 678.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-86.2166666666667, -185.07500359863013]
-	  SceneRectInView	  [-86.2166666666667, -185.07500359863013, 2343.3333333333335, 1130.0]
+	  Extents		  [1868.0, 764.0]
+	  ZoomFactor		  [0.29999999999999993]
+	  Offset		  [-1143.4081724935209, -283.92259391937239]
+	  SceneRectInView	  [-1143.4081724935209, -283.92259391937239, 4151.1111111111122, 1697.7777777777781]
 	}
 	Object {
 	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1498"
+	  Extents		  [1868.0, 764.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-400.16666666666663, -186.66666666666666]
+	  SceneRectInView	  [-400.16666666666663, -186.66666666666666, 1245.3333333333333, 509.33333333333331]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "16"
+	  Extents		  [1868.0, 764.0]
+	  ZoomFactor		  [0.6]
+	  Offset		  [-899.75434027777817, -303.47777777777782]
+	  SceneRectInView	  [-899.75434027777817, -303.47777777777782, 2075.5555555555557, 848.888888888889]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1504"
+	  Extents		  [1868.0, 764.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-492.24479166666663, -184.66666666666666]
+	  SceneRectInView	  [-492.24479166666663, -184.66666666666666, 1245.3333333333333, 509.33333333333331]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1501"
+	  Extents		  [1868.0, 764.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-396.41276041666663, -191.66666666666666]
+	  SceneRectInView	  [-396.41276041666663, -191.66666666666666, 1245.3333333333333, 509.33333333333331]
+	}
+	Object {
+	  $ObjectID		  10
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -170,7 +214,7 @@ Model {
 	  SceneRectInView	  [-363.0, -39.0, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  7
+	  $ObjectID		  11
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -181,7 +225,7 @@ Model {
 	  SceneRectInView	  [-363.0, -188.5, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  12
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -192,7 +236,7 @@ Model {
 	  SceneRectInView	  [-363.0, -194.0, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  13
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -203,7 +247,7 @@ Model {
 	  SceneRectInView	  [-363.0, -188.5, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  10
+	  $ObjectID		  14
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -214,7 +258,7 @@ Model {
 	  SceneRectInView	  [-363.0, -188.5, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  11
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -225,7 +269,7 @@ Model {
 	  SceneRectInView	  [-363.0, -188.5, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  12
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -236,7 +280,7 @@ Model {
 	  SceneRectInView	  [-363.0, -188.5, 1406.0, 678.0]
 	}
 	Object {
-	  $ObjectID		  13
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -250,7 +294,7 @@ Model {
       }
       Object {
 	$PropName		"DockComponentsInfo"
-	$ObjectID		14
+	$ObjectID		18
 	$ClassName		"Simulink.DockComponentInfo"
 	Type			"GLUE2:PropertyInspector"
 	ID			"Property Inspector"
@@ -259,15 +303,15 @@ Model {
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[640]
-	Height			[480]
+	Width			[426]
+	Height			[320]
 	Minimized		"Unset"
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAABrAD///8AAAWkAAAC4wAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAA"
+      "QBjAHQAbwByAAAAAAD/////AAACgAD///8AAAeEAAADSAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAA"
       Array {
 	Type			"Cell"
 	Dimension		0
@@ -282,11 +326,11 @@ Model {
   Creator		  "Newman"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "jammie"
+  LastModifiedBy	  "vs611"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jul 27 13:19:21 2020"
-  RTWModifiedTimeStamp	  517756736
-  ModelVersionFormat	  "1.%<AutoIncrement:1300>"
+  LastModifiedDate	  "Fri Oct 02 18:12:54 2020"
+  RTWModifiedTimeStamp	  523563146
+  ModelVersionFormat	  "1.%<AutoIncrement:1301>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -344,7 +388,7 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    15
+    $ObjectID		    19
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "observerModel"
     Array {
@@ -388,7 +432,7 @@ Model {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      16
+      $ObjectID		      20
       Version		      "20.0.1"
       DisabledProps	      []
       Description	      ""
@@ -396,7 +440,7 @@ Model {
 	Type			"Handle"
 	Dimension		10
 	Simulink.SolverCC {
-	  $ObjectID		  17
+	  $ObjectID		  21
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -439,7 +483,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  18
+	  $ObjectID		  22
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -481,7 +525,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  19
+	  $ObjectID		  23
 	  Version		  "20.0.1"
 	  Array {
 	    Type		    "Cell"
@@ -555,7 +599,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  20
+	  $ObjectID		  24
 	  Version		  "20.0.1"
 	  Array {
 	    Type		    "Cell"
@@ -676,7 +720,7 @@ Model {
 	  ArithmeticOperatorsInVariantConditions "warning"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  21
+	  $ObjectID		  25
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -726,7 +770,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  22
+	  $ObjectID		  26
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -746,7 +790,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  23
+	  $ObjectID		  27
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  ""
@@ -781,7 +825,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  24
+	  $ObjectID		  28
 	  Version		  "20.0.1"
 	  Array {
 	    Type		    "Cell"
@@ -870,7 +914,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      25
+	      $ObjectID		      29
 	      Version		      "20.0.1"
 	      Array {
 		Type			"Cell"
@@ -960,7 +1004,7 @@ Model {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      26
+	      $ObjectID		      30
 	      Version		      "20.0.1"
 	      Array {
 		Type			"Cell"
@@ -1066,7 +1110,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  27
+	  $ObjectID		  31
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -1107,7 +1151,7 @@ Model {
 	  CovMcdcMode		  "Masking"
 	}
 	hdlcoderui.hdlcc {
-	  $ObjectID		  28
+	  $ObjectID		  32
 	  Version		  "20.0.1"
 	  DisabledProps		  []
 	  Description		  "HDL Coder custom configuration component"
@@ -1132,11 +1176,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    16
+    $ObjectID		    20
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    29
+    $ObjectID		    33
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -1509,7 +1553,7 @@ Model {
   }
   System {
     Name		    "observerModel"
-    Location		    [8, 8, 1468, 928]
+    Location		    [187, 61, 1484, 798]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1524,9 +1568,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "60"
+    ZoomFactor		    "30"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "1544"
+    SIDHighWatermark	    "1545"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      Gain
@@ -1704,6 +1748,14 @@ Model {
       Gain		      "[x_leak;y_leak;z_leak]"
     }
     Block {
+      BlockType		      Gain
+      Name		      "Gain1"
+      SID		      "1545"
+      Position		      [1135, 60, 1165, 90]
+      ZOrder		      2
+      BlockMirror	      on
+    }
+    Block {
       BlockType		      SubSystem
       Name		      "Gravity"
       SID		      "16"
@@ -1718,7 +1770,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Gravity"
-	Location		[1040, 131, 1550, 634]
+	Location		[8, 8, 1305, 745]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -1733,7 +1785,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"60"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1761,7 +1813,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    30
+	    $ObjectID		    34
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Nick's Library"
 	    Description		    "Cross Product"
@@ -2159,7 +2211,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    31
+	    $ObjectID		    35
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "disp('->\\nu\\n__\\n->\\n|u|')"
 	  }
@@ -2543,7 +2595,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    32
+	    $ObjectID		    36
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "disp('->\\nu\\n__\\n->\\n|u|')"
 	  }
@@ -2927,7 +2979,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    33
+	    $ObjectID		    37
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "disp('->\\nu\\n__\\n->\\n|u|')"
 	  }
@@ -3483,7 +3535,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    34
+	    $ObjectID		    38
 	    $ClassName		    "Simulink.Mask"
 	    Type		    "Nick's Library"
 	    Description		    "Cross Product"
@@ -3881,7 +3933,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    35
+	    $ObjectID		    39
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "disp('->\\nu\\n__\\n->\\n|u|')"
 	  }
@@ -4265,7 +4317,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    36
+	    $ObjectID		    40
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "disp('->\\nu\\n__\\n->\\n|u|')"
 	  }
@@ -4649,7 +4701,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    37
+	    $ObjectID		    41
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "disp('->\\nu\\n__\\n->\\n|u|')"
 	  }
@@ -5173,7 +5225,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		38
+	$ObjectID		42
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('<OTO>')"
       }
@@ -5530,7 +5582,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		39
+	$ObjectID		43
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('<SCC>')"
       }
@@ -5715,7 +5767,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		40
+	$ObjectID		44
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('OTO')"
       }
@@ -6497,7 +6549,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		41
+	$ObjectID		45
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('G(w)')"
       }
@@ -17561,7 +17613,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		42
+	$ObjectID		46
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('Gest(w)')"
       }
@@ -27375,7 +27427,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		43
+	$ObjectID		47
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('SCC')"
       }
@@ -27680,7 +27732,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		44
+	$ObjectID		48
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('VISw')"
       }
@@ -27835,7 +27887,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		45
+	$ObjectID		49
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('VISg')"
       }
@@ -27895,7 +27947,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		46
+	$ObjectID		50
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('<VISw>')"
       }
@@ -28051,7 +28103,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		47
+	$ObjectID		51
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('<VISg>')"
       }
@@ -28110,7 +28162,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		48
+	$ObjectID		52
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('VISxdot')"
       }
@@ -28265,7 +28317,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		49
+	$ObjectID		53
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('VISx')"
       }
@@ -28422,7 +28474,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		50
+	$ObjectID		54
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('<VISx>')"
       }
@@ -28579,7 +28631,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		51
+	$ObjectID		55
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('<VISxdot>')"
       }
@@ -28743,7 +28795,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		52
+	$ObjectID		56
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('TH(w)')"
       }
@@ -28973,7 +29025,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		53
+	$ObjectID		57
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('TH(w)')"
       }
@@ -29204,7 +29256,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		54
+	$ObjectID		58
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('/')"
       }
@@ -29367,7 +29419,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		55
+	$ObjectID		59
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('K')"
       }
@@ -29542,7 +29594,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		56
+	$ObjectID		60
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('K')"
       }
@@ -29715,7 +29767,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		57
+	$ObjectID		61
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('TW(w_est)')"
       }
@@ -29943,7 +29995,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		58
+	$ObjectID		62
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('TW(w_est)')"
       }
@@ -30190,7 +30242,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		59
+	$ObjectID		63
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('T')"
       }
@@ -30240,7 +30292,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    60
+	    $ObjectID		    64
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "fprintf('TH(w)')"
 	  }
@@ -30450,7 +30502,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    61
+	    $ObjectID		    65
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "fprintf('TW(w_est)')"
 	  }
@@ -30717,7 +30769,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		62
+	$ObjectID		66
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('TH(w)')"
       }
@@ -30954,7 +31006,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		63
+	$ObjectID		67
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('T')"
       }
@@ -31004,7 +31056,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    64
+	    $ObjectID		    68
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "fprintf('TH(w)')"
 	  }
@@ -31214,7 +31266,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  Object {
 	    $PropName		    "MaskObject"
-	    $ObjectID		    65
+	    $ObjectID		    69
 	    $ClassName		    "Simulink.Mask"
 	    Display		    "fprintf('TW(w_est)')"
 	  }
@@ -31481,7 +31533,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		66
+	$ObjectID		70
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('TH(w)')"
       }
@@ -31694,7 +31746,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		67
+	$ObjectID		71
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('/')"
       }
@@ -31882,7 +31934,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		68
+	$ObjectID		72
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('/')"
       }
@@ -32045,7 +32097,7 @@ Model {
       RequestExecContextInheritance off
       Object {
 	$PropName		"MaskObject"
-	$ObjectID		69
+	$ObjectID		73
 	$ClassName		"Simulink.Mask"
 	Display			"fprintf('/')"
       }
@@ -32565,7 +32617,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"To VR (est)"
-	Location		[988, 208, 1489, 508]
+	Location		[8, 8, 1305, 745]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -32608,7 +32660,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "Limbic to VR Estimated Displacement"
-	    Location		    [780, 260, 1348, 588]
+	    Location		    [8, 8, 1305, 745]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -32650,7 +32702,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"Transform Axes Translation Est"
-		Location		[926, 488, 1247, 808]
+		Location		[8, 8, 1305, 745]
 		Open			off
 		PortBlocksUseCompactNotation off
 		SetExecutionDomain	off
@@ -33379,7 +33431,7 @@ Model {
       Branch {
 	ZOrder			67
 	Points			[0, -330]
-	DstBlock		"Semicircular Canals7"
+	DstBlock		"Gain1"
 	DstPort			1
       }
       Branch {
@@ -33652,6 +33704,13 @@ Model {
       SrcPort		      1
       DstBlock		      "Sum5"
       DstPort		      2
+    }
+    Line {
+      ZOrder		      273
+      SrcBlock		      "Gain1"
+      SrcPort		      1
+      DstBlock		      "Semicircular Canals7"
+      DstPort		      1
     }
     Annotation {
       SID		      "1540"
