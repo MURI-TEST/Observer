@@ -84,7 +84,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1301"
+    ComputedModelVersion    "1.1302"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -154,9 +154,9 @@ Model {
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1868.0, 764.0]
-	  ZoomFactor		  [0.29999999999999993]
-	  Offset		  [-1143.4081724935209, -283.92259391937239]
-	  SceneRectInView	  [-1143.4081724935209, -283.92259391937239, 4151.1111111111122, 1697.7777777777781]
+	  ZoomFactor		  [1.25]
+	  Offset		  [704.958494173147, -6.655927252705709]
+	  SceneRectInView	  [704.958494173147, -6.655927252705709, 996.26666666666665, 407.46666666666664]
 	}
 	Object {
 	  $ObjectID		  6
@@ -328,9 +328,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "vs611"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Oct 02 18:12:54 2020"
-  RTWModifiedTimeStamp	  523563146
-  ModelVersionFormat	  "1.%<AutoIncrement:1301>"
+  LastModifiedDate	  "Fri Oct 02 18:21:09 2020"
+  RTWModifiedTimeStamp	  523563667
+  ModelVersionFormat	  "1.%<AutoIncrement:1302>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1568,7 +1568,7 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "30"
+    ZoomFactor		    "125"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "1545"
     SimulinkSubDomain	    "Simulink"
@@ -1746,14 +1746,6 @@ Model {
       BlockMirror	      on
       ShowName		      off
       Gain		      "[x_leak;y_leak;z_leak]"
-    }
-    Block {
-      BlockType		      Gain
-      Name		      "Gain1"
-      SID		      "1545"
-      Position		      [1135, 60, 1165, 90]
-      ZOrder		      2
-      BlockMirror	      on
     }
     Block {
       BlockType		      SubSystem
@@ -33424,33 +33416,6 @@ Model {
       }
     }
     Line {
-      ZOrder		      66
-      SrcBlock		      "Integrator1"
-      SrcPort		      1
-      Points		      [15, 0]
-      Branch {
-	ZOrder			67
-	Points			[0, -330]
-	DstBlock		"Gain1"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			68
-	Points			[45, 0]
-	Branch {
-	  ZOrder		  69
-	  DstBlock		  "x_est"
-	  DstPort		  1
-	}
-	Branch {
-	  ZOrder		  70
-	  Points		  [0, -50]
-	  DstBlock		  "To VR (est)"
-	  DstPort		  1
-	}
-      }
-    }
-    Line {
       ZOrder		      71
       SrcBlock		      "Gravity2"
       SrcPort		      1
@@ -33706,11 +33671,31 @@ Model {
       DstPort		      2
     }
     Line {
-      ZOrder		      273
-      SrcBlock		      "Gain1"
+      ZOrder		      66
+      SrcBlock		      "Integrator1"
       SrcPort		      1
-      DstBlock		      "Semicircular Canals7"
-      DstPort		      1
+      Points		      [15, 0]
+      Branch {
+	ZOrder			274
+	Points			[0, -330]
+	DstBlock		"Semicircular Canals7"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			68
+	Points			[45, 0]
+	Branch {
+	  ZOrder		  69
+	  DstBlock		  "x_est"
+	  DstPort		  1
+	}
+	Branch {
+	  ZOrder		  70
+	  Points		  [0, -50]
+	  DstBlock		  "To VR (est)"
+	  DstPort		  1
+	}
+      }
     }
     Annotation {
       SID		      "1540"
