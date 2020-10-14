@@ -29,7 +29,7 @@ plot(time, angularVelocityX);
 plot(time, angularPositionX);
 
 %% Write to xlsx that Observer can read
-currentFolder = 'C:\Users\jammie\Downloads\ObserverFinal';
+currentFolder = pwd;
 
 % set up what senses are 'on'
 g_zvis = ones(1,length(time))*-1;
