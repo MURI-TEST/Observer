@@ -4,21 +4,15 @@ function plottingOverlayfn_2(handles, handles2)
 close all
 names = fieldnames(handles);
 names2 = fieldnames(handles2);
-assert(strcmp(names{5},names2{5}), 'handle structures contain different information')
-mylen = min(length(handles.(names{end})), length(handles2.(names{end})));
-if length(handles.(names{end})) ~= mylen
-    for i = 7:length(names)
-        handles.(names{i}) = handles.(names{i})(1:mylen,:);
-    end
-elseif length(handles2.(names{end})) ~= mylen
-    for i = 7:length(names)
-        handles2.(names{i}) = handles2.(names{i})(1:mylen,:);
-    end
-end
+assert(names == names2), 'handle structures contain different information')
+mylen = min(handles.(names{end}), handles2.(names{end});
+if length(handles.(names{e})
+for i = 7:lenth(names)
+    handles.(names{i}) = handles.(names{i})[1:mylen];
 
 assert(length(handles.t_s) == length(handles2.t_s), 'inputs are not of same duration')
 
-%assert(handles.omega_head(15,1) == handles2.omega_head(15,1), 'not same input motion')
+assert(handles.omega_head(15,1) == handles2.omega_head(15,1), 'not same input motion')
 
 %% User Inputs
 % 1 means it will be plotted. 0 means it will not.

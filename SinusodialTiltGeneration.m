@@ -1,9 +1,15 @@
 %% Create Sinusodial Tilt Profiles for Observer
-
+close all;
 %% User input
-frequency = 0.5; %frequency of tilt in Hz (this also defines the time taken)
-displacement = 3; %total degrees at end of motion
+%% run different frequencies (get some high ones)
+%% run some sinusodial translations, run some combos.
+frequency = 1; %frequency of tilt in Hz (this also defines the time taken)
+displacement = 6; %total degrees at end of motion
 simFrequency = 100;
+lightCond = 'lightsOnHalf';
+%lightCond = 'lightsOffHalf';
+%lightCond = 'default'; %(lights on)
+filename=['TiltProfile_',num2str(displacement),'d_',num2str(frequency),'Hz_',lightCond,'.xls'];
 
 %% Constant Calculations
 totalTime = 1/frequency; %time in seconds
@@ -32,6 +38,20 @@ POS_on = ones(1,length(time));
 VEL_on = ones(1,length(time));
 ANGVEL_on = ones(1,length(time));
 g_on = ones(1,length(time));
+
+if strcmp(lightCond, 'lightsOffHalf')
+    POS_on(floor(length(time)/2)+1:end) = zeros(1,ceil(length(time)/2));
+    VEL_on(floor(length(time)/2)+1:end) = zeros(1,ceil(length(time)/2));
+    ANGVEL_on(floor(length(time)/2)+1:end) = zeros(1,ceil(length(time)/2));
+    g_on(floor(length(time)/2)+1:end) = zeros(1,ceil(length(time)/2));
+end
+
+if strcmp(lightCond, 'lightsOnHalf')
+    POS_on(1:floor(length(time)/2)) = zeros(1,floor(length(time)/2));
+    VEL_on(1:floor(length(time)/2)) = zeros(1,floor(length(time)/2));
+    ANGVEL_on(1:floor(length(time)/2)) = zeros(1,floor(length(time)/2));
+    g_on(1:floor(length(time)/2)) = zeros(1,floor(length(time)/2));
+end
 
 % Observer is set up to take 24 columns of input data.
 writeToXlsx = time';
@@ -72,6 +92,6 @@ for i = 2:24
 end
 
 % write column headers
-xlswrite([currentFolder,'\','TiltProfile.xls'], columnHeaders', 'Sheet1', 'A1');
+xlswrite([pwd,'\',filename], columnHeaders, 'Sheet1', 'A1');
 % write array
-xlswrite([currentFolder,'\','TiltProfile.xls'], writeToXlsx, 'Sheet1', 'A2');
+xlswrite([pwd,'\',filename], writeToXlsx, 'Sheet1', 'A2');
